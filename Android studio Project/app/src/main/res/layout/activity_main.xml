@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textSize="40sp"
+    tools:context=".MainActivity">
+
+
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:text="测试图片总数:"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/num_text"
+        android:layout_width="80dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="300dp"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="400dp"
+        android:gravity="center"
+        android:text="精确率:"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/acc_text"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="550dp"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:text = "车流少"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="精确率"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id = "@+id/carless_acc"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="320dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:text = "召回率"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="470dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id = "@+id/carless_rec"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="630dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:text = "样本数"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="780dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id = "@+id/carless_num"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="930dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+
+
+
+    <TextView
+        android:text = "车流正常"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:text = "精确率"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="170dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id = "@+id/carnorm_acc"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="320dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:text = "召回率"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="470dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+
+
+    <TextView
+        android:id = "@+id/carnorm_rec"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="630dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:text = "样本数"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="780dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id = "@+id/carnorm_num"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="930dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:text = "车流多"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:text = "精确率"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="170dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id = "@+id/carmore_acc"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="320dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="470dp"
+        android:gravity="center"
+        android:text="召回率"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id = "@+id/carmore_rec"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="630dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:text = "样本数"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="780dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id = "@+id/carmore_num"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="930dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>
